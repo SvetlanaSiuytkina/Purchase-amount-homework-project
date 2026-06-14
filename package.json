@@ -1,0 +1,34 @@
+{
+  "name": "purchase-amount-homework-project",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/SvetlanaSiuytkina/Purchase-amount-homework-project#readme",
+  "bugs": {
+    "url": "https://github.com/SvetlanaSiuytkina/Purchase-amount-homework-project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SvetlanaSiuytkina/Purchase-amount-homework-project.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.9.3",
+    "jest": "^30.4.2",
+    "ts-jest": "^29.4.11"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.6.0",
+    "typescript": "^6.0.3"
+  }
+}
