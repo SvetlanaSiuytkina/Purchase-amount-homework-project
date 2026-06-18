@@ -16,5 +16,8 @@ export default {
     ]
   },
   moduleFileExtensions: ['ts', 'js', 'json'],
-  testPathIgnorePatterns: ['<rootDir>/dist/']
+  testPathIgnorePatterns: ['<rootDir>/dist/'],
+  moduleNameMapper: {
+    '^(\\.{1,2}/.*)\\.js$': '$1',
+  },
 };
